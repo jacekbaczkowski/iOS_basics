@@ -10,10 +10,11 @@
 		ED6674391CF7B0000008E788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6674381CF7B0000008E788 /* AppDelegate.swift */; };
 		ED66743B1CF7B0000008E788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED66743A1CF7B0000008E788 /* ViewController.swift */; };
 		ED66743E1CF7B0000008E788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED66743C1CF7B0000008E788 /* Main.storyboard */; };
-		ED6674401CF7B0000008E788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED66743F1CF7B0000008E788 /* Assets.xcassets */; };
 		ED6674431CF7B0000008E788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6674411CF7B0000008E788 /* LaunchScreen.storyboard */; };
 		ED66744E1CF7B0000008E788 /* first_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED66744D1CF7B0000008E788 /* first_appTests.swift */; };
 		ED6674591CF7B0000008E788 /* first_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6674581CF7B0000008E788 /* first_appUITests.swift */; };
+		EDCE41A71CF7B514006AEDBF /* 1511.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCE41A61CF7B514006AEDBF /* 1511.jpg */; };
+		EDCE41A91CF7B8FE006AEDBF /* Boom.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCE41A81CF7B8FE006AEDBF /* Boom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		ED6674381CF7B0000008E788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED66743A1CF7B0000008E788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED66743D1CF7B0000008E788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED66743F1CF7B0000008E788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6674421CF7B0000008E788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED6674441CF7B0000008E788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6674491CF7B0000008E788 /* first_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = first_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,8 @@
 		ED6674541CF7B0000008E788 /* first_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = first_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6674581CF7B0000008E788 /* first_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appUITests.swift; sourceTree = "<group>"; };
 		ED66745A1CF7B0000008E788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCE41A61CF7B514006AEDBF /* 1511.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1511.jpg; sourceTree = "<group>"; };
+		EDCE41A81CF7B8FE006AEDBF /* Boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 				ED6674381CF7B0000008E788 /* AppDelegate.swift */,
 				ED66743A1CF7B0000008E788 /* ViewController.swift */,
 				ED66743C1CF7B0000008E788 /* Main.storyboard */,
-				ED66743F1CF7B0000008E788 /* Assets.xcassets */,
+				EDCE41A81CF7B8FE006AEDBF /* Boom.png */,
+				EDCE41A61CF7B514006AEDBF /* 1511.jpg */,
 				ED6674411CF7B0000008E788 /* LaunchScreen.storyboard */,
 				ED6674441CF7B0000008E788 /* Info.plist */,
 			);
@@ -229,8 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCE41A91CF7B8FE006AEDBF /* Boom.png in Resources */,
 				ED6674431CF7B0000008E788 /* LaunchScreen.storyboard in Resources */,
-				ED6674401CF7B0000008E788 /* Assets.xcassets in Resources */,
+				EDCE41A71CF7B514006AEDBF /* 1511.jpg in Resources */,
 				ED66743E1CF7B0000008E788 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = first_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JB.first-app";
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = first_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JB.first-app";
@@ -482,6 +488,7 @@
 				ED66745F1CF7B0000008E788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6674601CF7B0000008E788 /* Build configuration list for PBXNativeTarget "first_appTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				ED6674621CF7B0000008E788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6674631CF7B0000008E788 /* Build configuration list for PBXNativeTarget "first_appUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				ED6674651CF7B0000008E788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
